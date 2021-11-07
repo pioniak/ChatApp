@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Domain.Model
 {
@@ -9,6 +6,7 @@ namespace Domain.Model
     {
         public string Name { get; set; }
         public int Id { get; set; }
+        public int CreatorId { get; set; }
         public User Creator { get; set; }
         public ICollection<RoomParticipant> Participants { get; set; }
     }
