@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApi", "ChatApi\ChatApi.csproj", "{402EF63C-B905-4B4F-9921-946AA266DA12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{157CE8AE-3FDA-41FF-82A9-9524A17C9695}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{49F1012A-422B-4971-A5FE-79BC9FA617A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{402EF63C-B905-4B4F-9921-946AA266DA12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{402EF63C-B905-4B4F-9921-946AA266DA12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{402EF63C-B905-4B4F-9921-946AA266DA12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{402EF63C-B905-4B4F-9921-946AA266DA12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{157CE8AE-3FDA-41FF-82A9-9524A17C9695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{157CE8AE-3FDA-41FF-82A9-9524A17C9695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{157CE8AE-3FDA-41FF-82A9-9524A17C9695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{157CE8AE-3FDA-41FF-82A9-9524A17C9695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49F1012A-422B-4971-A5FE-79BC9FA617A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49F1012A-422B-4971-A5FE-79BC9FA617A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49F1012A-422B-4971-A5FE-79BC9FA617A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49F1012A-422B-4971-A5FE-79BC9FA617A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66626CD3-F907-485B-891A-40285DB63929}
+	EndGlobalSection
+EndGlobal
